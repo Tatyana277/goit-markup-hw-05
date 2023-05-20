@@ -118,7 +118,6 @@ body {
   column-gap: 40px;
 }
 .nav-link {
-  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -147,14 +146,14 @@ body {
 }
 
 .current::after {
-content:'';
-position: absolute;
-left: 0;
-bottom: -1px;
-width: 100%;
-height: 4px;
-background: var(--accent-color);
-border-radius: 2px;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
 }
 
 .nav-contact {
@@ -610,11 +609,11 @@ border-radius: 2px;
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-background-color: var(--background-accent);  
+  background-color: var(--background-accent);
 }
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
-fill: var(--main-title-text);
+  fill: var(--main-title-text);
 }
 
 .is-hidden {
