@@ -118,10 +118,13 @@ body {
   column-gap: 40px;
 }
 .nav-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   transition: color var(--transition-duration) var(--transition-func);
 }
@@ -131,14 +134,12 @@ body {
   color: var(--accent-color);
 }
 
-.page-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .nav-list-contact {
   margin-left: auto;
   column-gap: 40px;
+}
+.nav-list-item {
+  position: relative;
 }
 
 .page-nav .current {
