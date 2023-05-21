@@ -550,11 +550,8 @@ body {
   color: var(--tertiary-text-color);
   background-color: var(--background-btn);
   letter-spacing: 0.02em;
-
   overflow: auto;
-
   transform: translateY(100%);
-
   transition: transform var(--transition);
 }
 .portfolio-page-item:hover .overlay,
@@ -568,6 +565,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  
   width: 100%;
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
