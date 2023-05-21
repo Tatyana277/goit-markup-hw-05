@@ -208,6 +208,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 
   background: var(--background-btn);
   color: var(--main-title-text);
@@ -567,36 +568,28 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-
   background: rgba(46, 47, 66, 0.4);
-
   transition: opacity var(--transition), visibility var(--transition);
 }
 .modal {
   position: absolute;
-
   width: 408px;
   min-height: 576px;
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   background: var(--background-modal);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-
   transition: transform var(--transition);
 }
 .modal-close-btn {
   position: absolute;
   top: 24px;
   right: 24px;
-
   display: flex;
   align-items: center;
   justify-content: center;
